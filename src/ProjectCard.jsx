@@ -3,14 +3,14 @@ import React from "react";
 const ProjectCard = ({ project }) => {
     return (
       <>
-        <div style={{height: 20 "white"}} class="ui card">
+        <div class="ui card" style={{marginBottom: 20}}>
           <div class="image">
             <img src={project.image} />
           </div>
-          <div class="content">
-            <h3 class="ui header">{project.name}</h3>
-            <div class="extra content">{project.web}</div>
-            <div class="description">{project.description}</div>
+          <div style={{backgroundColor: "black"}} class="content">
+            <h3 style={{color: "white"}} class="ui header">{project.name}</h3>
+            <div style={{color: "white"}} class="extra content">{project.web}</div>
+            <div style={{color: "white"}} class="description">{project.description}</div>
           </div>
         </div>
       </>
