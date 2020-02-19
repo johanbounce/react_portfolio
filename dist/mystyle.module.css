@@ -1,5 +1,16 @@
-.pagefooter {
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-}
+a:link {
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    z-index: 98;
+    height: 100%;
+    width: 700px;
+    }
+
+ a:hover {
+        color: pink;
+    }    
+
+div.divcard:hover{
+        background-color:#FF0000;
+     }
