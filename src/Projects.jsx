@@ -43,7 +43,7 @@ class Projects extends Component {
             </p>
           </div>
         </div>
-        <div className="ui stackable four column grid">{projectsList}</div>
+        <div className="ui stackable two column grid">{projectsList}</div>
       </div>
     );
   }
