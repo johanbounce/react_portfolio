@@ -31,20 +31,29 @@ class Projects extends Component {
       }
 
     return (
-        <div style={{margin: 80}} className="ui main container">
-        <div className="ui stackable two column grid">
-          <div className="column">
-          <UndrawDashboard primaryColor='green' height='200px' />
-          </div>
-          <div className="column">
-            <h1 className="ui header">My Websites</h1>
-            <p>
-              These are the websites that I have owned and operated in my carreer this far. Hopefully, one day I will 
-            </p>
-          </div>
-        </div>
-        <div className="ui stackable two column grid">{projectsList}</div>
-      </div>
+
+      <div className="hero-image"
+    style={{
+      background: 'url("./images/picwall.jpg")',
+      backgroundSize: 'cover',
+      height: '100%',
+      marginTop: '-1rem',
+      display: 'flex',
+      alignItems: 'center'
+      }}>
+      <div style={{margin: 120, fontFamily: "Futura",}} className="ui main container">
+              <div className="ui stackable two column grid">
+                <div className="column">
+                  <h1 style={{color: "white"}} className="ui header">My Projects</h1>
+                  <p>
+                    These are the websites that I have owned and operated in my carreer this far. Hopefully, one day I will 
+                  </p>
+                </div>
+              </div>
+              <div className="ui stackable two column grid">{projectsList}</div>
+            </div>
+</div>
+        
     );
   }
 }

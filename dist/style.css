@@ -21,16 +21,38 @@ footer {
 
   body {
     background-color: black;
+    font-family: 'Futura';
    }
 
    .ui.item {
      display: flex;
    }
 
-   .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-   }
+   .careerweb.a:link {
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    z-index: 98;
+    height: 100%;
+    width: 700px;
+    }
+
+    .ui.header {
+      font-family: 'Futura';
+    }
+
+    .header {
+      font-family: 'Futura';
+    }
+
+    .ui.card {
+      font-family: 'Futura';
+    }
+
+    .content {
+      font-family: 'Futura';
+    }
+
+    .card {
+      font-family: 'Futura';
+    }

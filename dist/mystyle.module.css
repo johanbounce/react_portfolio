@@ -1,5 +1,5 @@
 a:link {
-    color: white;
+    color: pink;
     font-weight: bolder;
     position: relative;
     z-index: 98;
@@ -8,5 +8,7 @@ a:link {
     }
 
  a:hover {
-        color: pink;
+        color: purple;
     }    
+
+

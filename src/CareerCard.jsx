@@ -16,9 +16,10 @@ const CareerCard = ({ career }) => {
       <img src={career.image}/>
     </div>
     <div class="content">
-      <a class="header">{career.name}</a>
+      <a style={{fontFamily: "futura"}} class="header">{career.name}</a>
       <div class="meta">
         <span class="date">{career.description}</span>
+        <div style={{marginBottom: 5, wordWrap: "break-word",}} class="extra content"><a className={styles.linkcard} href={career.web}>{career.web}</a></div>
       </div>
     </div>
     <div class="extra content">

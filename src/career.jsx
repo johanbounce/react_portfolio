@@ -31,19 +31,30 @@ class Career extends Component {
           }
     
         return (
-          <div style={{margin: 80}} className="ui main container">
+          <div className="hero-image"
+            style={{
+            background: 'url("./images/art.jpg")',
+            backgroundSize: 'cover',
+            height: '100%',
+            marginTop: '-1rem',
+            display: 'flex',
+            alignItems: 'center'
+            }}>
+              <div style={{margin: 80}} className="ui main container">
             <div className="ui main container">
             <div className="ui stackable four column grid">
               <div className="column">
-                <h1 className="ui header">My Websites</h1>
+                <h1 style={{color: "white"}} className="ui header">My Career</h1>
                 <p>
-                  These are the websites that I have owned and operated in my carreer this far. Hopefully, one day I will 
+                  This is my career in a compressed state.
                 </p>
               </div>
             </div>
             <div className="ui stackable one column grid">{careerList}</div>
           </div>
         </div>
+      </div>
+          
         );
       }
     }
