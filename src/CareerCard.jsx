@@ -1,21 +1,35 @@
 import React from "react";
 import styles from '../dist/mystyle.module.css';
 
-const Careercard = ({ career }) => {
-    return (
-      <>
-        <div class="ui card" style={{borderRadius: "roundest", border: "solid 5px white", marginBottom: 20}}>
-          <div class="image">
-            <img src={career.image} />
-          </div>
-          <div style={{backgroundColor: "black"}} class="content">
-            <h3 style={{color: "white"}} class="ui header">{project.name}</h3>
-            <div class="extra content"><a className={styles.linkcard} href={career.web}>{career.web}</a></div>
-            <div style={{color: "white"}} class="description">{career.description}</div>
+const CareerCard = ({ career }) => {
+  return (
+      <div class="ui special cards" style={{margin: 10}} >
+  <div class="card">
+    <div class="blurring dimmable image">
+      <div class="ui dimmer">
+        <div class="content">
+          <div class="center">
+            <div class="ui inverted button">{career.web}</div>
           </div>
         </div>
-      </>
-    );
-  };
+      </div>
+      <img src={career.image}/>
+    </div>
+    <div class="content">
+      <a class="header">{career.name}</a>
+      <div class="meta">
+        <span class="date">{career.description}</span>
+      </div>
+    </div>
+    <div class="extra content">
+      <a>
+        <i class="calendar alternate outline icon"></i>
+        {career.date}
+      </a>
+    </div>
+  </div>
+  </div>
+  );
+};
   
-  export default Careercard;
+  export default CareerCard;

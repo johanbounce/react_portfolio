@@ -3,7 +3,6 @@ import styles from '../dist/mystyle.module.css';
 
 const ProjectCard = ({ project }) => {
     return (
-      <>
         <div class="ui card" style={{borderRadius: "roundest", border: "solid 5px white", marginBottom: 20}}>
           <div class="image">
             <img src={project.image} />
@@ -15,7 +14,6 @@ const ProjectCard = ({ project }) => {
             <div style={{color: "white"}} class="description">{project.description}</div>
           </div>
         </div>
-      </>
     );
   };
   

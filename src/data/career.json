@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Graduating Rudbeckianska Gymnasiet",
+        "status": "done",
+        "date": "2016-06-10",
+        "image": "/images/student.jpg",
+        "web": "www.skola.vasteras.se/gymnasieskolor/rudbeckianska.html",
+        "description": "Sammhällsprogrammet, inriktning entreprenörsskap."
+      },
+      {
+        "id": 2,
+        "name": "ATB AB",
+        "status": "",
+        "date": "2016-07-01",
+        "image": "/images/atb.jpg",
+        "web": "",
+        "description": "Starting my first company. A small transport service."
+      },
+      {
+        "id": 3,
+        "name": "Way To Go AB",
+        "status": "",
+        "date": "2017-09-06",
+        "image": "/images/atb.jpg",
+        "web": "www.waytogo.se",
+        "description": "Starting my second company and launching my first web-platform"
+      },
+      {
+        "id": 4,
+        "name": "Start-Up of the year 2018",
+        "status": "",
+        "date": "2019-03-14",
+        "image": "/images/guldstank.jpg",
+        "web": "www.guldstank.se",
+        "description": "My company, Way To Go, received the award of Best Start-Up Company in all of Västmanland."
+      }
+]
