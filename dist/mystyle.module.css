@@ -1,0 +1,14 @@
+a:link {
+    color: pink;
+    font-weight: bolder;
+    position: relative;
+    z-index: 98;
+    height: 100%;
+    width: 700px;
+    }
+
+ a:hover {
+        color: purple;
+    }    
+
+

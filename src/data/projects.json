@@ -1,22 +1,38 @@
 [
     {
         "id": 1,
-        "name": "Karamellfarbrorn",
-        "image": "./images/Karra1.png",
-        "web": "www.karamellfarbrorn.se",
-        "description": "A small school project reaching revenue of 100k in 3 months."
+        "name": "ATM Challenge",
+        "status": "",
+        "techniques": "Ruby, Rspec",
+        "image": "./images/financial-growth.png",
+        "web": "www.github.com/johanbounce/ATM_challenge_2020",
+        "description": "Creating a virtual ATM-Machine."
       },
       {
         "id": 2,
-        "name": "Way To Go",
-        "web": "www.waytogo.se",
-        "image": "./images/wtg-badge-gray.png",
-        "description": "Powering my current company, Way To Go AB"
+        "name": "Library Challenge",
+        "status": "",
+        "techniques": "Ruby, Rspec",
+        "web": "www.github.com/johanbounce/library-challenge",
+        "image": "./images/library.png",
+        "description": "Creating an application with basic library-functinality"
       },
       {
         "id": 3,
-        "name": "Mobile UX",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-        "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+        "name": "Legacy Code Challenge",
+        "status": "",
+        "techniques": "Ruby, Rails, Rspec",
+        "web": "www.github.com/CraftAcademy/legacy_team2_2020",
+        "image": "./images/abstract-message-sent.png",
+        "description": "First interaction with Rails. Creating test for a messaging-application."
+      },
+      {
+        "id": 4,
+        "name": "AUT Cycle Challenge",
+        "status": "",
+        "techniques": "Ruby, Rails, Rspec",
+        "web": "www.github.com/johanbounce/rails_demo",
+        "image": "./images/blogging.png",
+        "description": "Creating an application with the basic fundemental functionality of a blog. TDD throughout the project."
       }
 ]
