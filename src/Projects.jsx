@@ -34,7 +34,7 @@ class Projects extends Component {
 
       <div className="hero-image"
     style={{
-      background: 'url("./images/picwall.jpg")',
+      background: 'url("./images/gallery.jpg")',
       backgroundSize: 'cover',
       height: '100%',
       marginTop: '-1rem',

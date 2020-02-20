@@ -1,21 +1,27 @@
 import React from "react";
-import { UndrawDesignerLife } from "react-undraw-illustrations";
+import { Icon, Popup } from 'semantic-ui-react';
 
 const About = () => {
     return (
-        <div className="ui main container">
-    <div class="ui stackable two column grid">
-      <div class="column">
-        <UndrawDesignerLife />
+      <div className="hero-image"
+      style={{
+      background: 'url("images/picwall.jpg")',
+      backgroundSize: 'cover',
+      height: '100vh',
+      marginTop: '-1rem',
+      display: 'flex',
+      alignItems: 'center'
+      }}>
+        <div>
+        <Popup
+          trigger={<Icon style={{color: "white"}} size='huge' circular name='gem' />}
+          content="hej"
+          size='huge'
+          offset='0, 50px'
+          position='top center'
+        />
+        </div>
       </div>
-      <div class="column">
-        <h1 style={{color: "white"}} className="ui header">About Me</h1>
-        <p style={{color: "white"}}> 
-          I was born one morning when the sun didn't shine, I picked upp my shovel and I walked to the mine.
-        </p>
-      </div>
-    </div>
-  </div>
       );
   };
 

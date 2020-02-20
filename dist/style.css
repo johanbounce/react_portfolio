@@ -34,7 +34,6 @@ footer {
     position: relative;
     z-index: 98;
     height: 100%;
-    width: 700px;
     }
 
     .ui.header {
@@ -43,6 +42,9 @@ footer {
 
     .header {
       font-family: 'Futura';
+      width: 100%;
+      height: 60px;
+      
     }
 
     .ui.card {
@@ -55,4 +57,18 @@ footer {
 
     .card {
       font-family: 'Futura';
+    }
+
+    .about.div {
+      background-color: ;
+      position: center;
+    }
+
+    .main.container {
+      max-width: 100%;
+    }
+
+    .ui.fixedinverted.menu {
+      color: green;
+      width: 100%;
     }

@@ -33,7 +33,7 @@ class Career extends Component {
         return (
           <div className="hero-image"
             style={{
-            background: 'url("./images/art.jpg")',
+            background: 'url("./images/showart.jpg")',
             backgroundSize: 'cover',
             height: '100%',
             marginTop: '-1rem',
