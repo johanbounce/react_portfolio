@@ -1,4 +1,5 @@
 import React from "react";
+import { Popup } from "semantic-ui-react";
 
 const Hello = () => {
   return ( 
@@ -11,10 +12,33 @@ const Hello = () => {
       display: 'flex',
       alignItems: 'center'
       }}>
-      <div className="ui main container">
-        <h1 style={{color: "white"}} id="hello">BONS, JOHAN</h1>
-        <h2 style={{color: "white"}} id="hello">ENTREPRENUER</h2>
-        <h3 style={{color: "white"}} id="hello">FULL STACK DEVELOPER</h3>
+      <div style={{marginLeft: 800, marginBottom: 200}} >
+        <Popup
+        trigger={
+        <h1 style={{marginLeft: 50, fontSize: 70}} class="rainbow-text" >BONS, JOHAN</h1>
+        }
+          content="Who I am"
+          size='huge'
+          inverted
+        ></Popup>
+        <Popup
+        trigger={
+        <h2 style={{marginLeft: 50, color: "white"}} >ENTREPRENEUR</h2>
+        }
+        content="What I am"
+        size="huge"
+        position="left center"
+        inverted
+        ></Popup>
+        <Popup
+        trigger={
+        <h3 style={{marginLeft: 50, color: "white"}} >FULL STACK DEVELOPER</h3>
+        }
+        content="What I want to become"
+        size="huge"
+        position='bottom left'
+        inverted
+        ></Popup>
         </div>
       </div>
   );

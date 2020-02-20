@@ -3,10 +3,10 @@ import { NavLink, Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <nav style={{ borderBottom: '3px solid white', fontFamily: "Futura"}} className="ui fixed inverted menu">
+    <nav style={{ borderBottom: '3px solid black', fontFamily: "Futura"}} className="ui fixed menu">
       <div className="ui container">
-        <Link id="header" className="header item" to="/">
-        <i style={{color: "white"}} class="big home icon"></i>
+        <Link id="header" className="black header item" to="/">
+        <i style={{color: "white"}} class="big black home icon"></i>
         </Link>
         <div className="right menu">
           <NavLink

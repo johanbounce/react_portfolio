@@ -9,15 +9,15 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
-    background-color: black;
+    background-color: white;
     border-style: solid;
     border-width: 5px;
-    border: white;
+    border: black;
   }
 
-  p {
+  /* p {
     color: white;
-  }
+  } */
 
   body {
     background-color: black;
@@ -77,4 +77,9 @@ footer {
       width: 35px;
       height: 35px;
       position: center;
+    }
+
+    .rainbow-text {
+      background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+      color: transparent;
     }
