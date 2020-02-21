@@ -15,7 +15,7 @@ const Hello = () => {
       <div style={{marginLeft: 800, marginBottom: 200}} >
         <Popup
         trigger={
-        <h1 style={{marginLeft: 50, fontSize: 70}} class="rainbow-text" >BONS, JOHAN</h1>
+        <h1 style={{marginLeft: 50, fontSize: 70}} class="rainbow-text">BONS, JOHAN</h1>
         }
           content="Who I am"
           size='huge'

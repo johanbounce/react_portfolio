@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "ATM Challenge",
-        "status": "",
+        "status": "closed",
         "techniques": "Ruby, Rspec",
         "image": "./images/financial-growth.png",
         "web": "www.github.com/johanbounce/ATM_challenge_2020",
@@ -11,7 +11,7 @@
       {
         "id": 2,
         "name": "Library Challenge",
-        "status": "",
+        "status": "open",
         "techniques": "Ruby, Rspec",
         "web": "www.github.com/johanbounce/library-challenge",
         "image": "./images/library.png",

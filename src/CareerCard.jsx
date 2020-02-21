@@ -19,7 +19,7 @@ const CareerCard = ({ career }) => {
       <a style={{fontFamily: "Futura"}} class="header">{career.name}</a>
       <div class="meta">
         <span class="date">{career.description}</span>
-        <div style={{marginBottom: 5, wordWrap: "break-word",}} class="extra content"><a className={styles.linkcard} href={career.web}>{career.web}</a></div>
+        <div style={{marginBottom: 5, wordWrap: "break-word",}} class="extra content 1"><a class="career web"className={styles.linkcard} href={career.web}>{career.web}</a></div>
       </div>
     </div>
     <div class="extra content">
