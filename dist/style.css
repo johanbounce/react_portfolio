@@ -89,3 +89,9 @@ footer {
       display: inline-block;
       margin-left: 500
     }
+
+    .picofme {
+      height: 250px;
+      width: 250px;
+      margin-left: 630px;
+    }
