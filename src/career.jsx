@@ -46,7 +46,7 @@ class Career extends Component {
               <div className="column">
                 <h1 style={{color: "white"}} className="ui header">My Career</h1>
                 <p>
-                  This is my career in a compressed state.
+                  This important events of my career
                 </p>
               </div>
             </div>

@@ -12,16 +12,18 @@ const About = () => {
       display: 'flex',
       alignItems: 'center'
       }}>
-        <div>
-        <Popup
-          trigger={<Icon style={{color: "white"}} size='huge' circular name='gem' />}
-          content="hej"
-          size='huge'
-          offset='0, 50px'
-          position='top center'
-        />
+        <div class="about-div">
+          <h1 style={{color: "white", marginLeft: 600, backgroundColor: "black", fontSize: 40, fontFamily: "Futura"}} >Erik Johan Bons</h1>
+            <p style={{color: "white", marginLeft: 600, backgroundColor: "black", fontSize: 20, fontFamily: "Futura"}}><i class="child icon"></i> Age: 22</p>
+            <p style={{color: "white", marginLeft: 600, backgroundColor: "black", fontSize: 20, fontFamily: "Futura"}}><i class="globe icon"></i> City: Västerås</p>
+            <p style={{color: "white", marginLeft: 600, backgroundColor: "black", fontSize: 20, fontFamily: "Futura"}}><i class=" users icon"></i> Family: Yeah, I love them.</p>
+            <p style={{color: "white", marginLeft: 600, backgroundColor: "black", fontSize: 20, fontFamily: "Futura"}}><i class=" briefcase icon"></i> Occupation: Entreprenuer.</p>
+            <p style={{color: "white", marginLeft: 600, backgroundColor: "black", fontSize: 20, fontFamily: "Futura"}}>This is me</p>
         </div>
-      </div>
+    
+        
+        </div>
+      
       );
   };
 

@@ -46,7 +46,7 @@ class Projects extends Component {
                 <div className="column">
                   <h1 style={{color: "white"}} className="ui header">My Projects</h1>
                   <p>
-                    These are the websites that I have owned and operated in my carreer this far. Hopefully, one day I will 
+                    These are projects I have been working on during the CraftAcademy Bootcamp so far
                   </p>
                 </div>
               </div>

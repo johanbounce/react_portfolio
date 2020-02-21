@@ -15,9 +15,9 @@ footer {
     border: black;
   }
 
-  /* p {
+  p {
     color: white;
-  } */
+  }
 
   body {
     background-color: black;
@@ -82,4 +82,10 @@ footer {
     .rainbow-text {
       background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
       color: transparent;
+    }
+
+    .about.div {
+      text-align: center;
+      display: inline-block;
+      margin-left: 500
     }
