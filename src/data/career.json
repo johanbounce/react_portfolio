@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Graduating Rudbeckianska Gymnasiet",
-        "status": "done",
+        "status": "class='yellow heart icon'",
         "date": "2016-06-10",
         "image": "/images/student.jpg",
         "web": "www.skola.vasteras.se/gymnasieskolor/rudbeckianska.html",
